@@ -1,0 +1,32 @@
+#program to find um of digits in a given number
+
+x=int(input("enter a number "))
+sod=0
+while (x>0):
+    rem=x%10
+    sod=sod+rem
+    x=x//10
+print('sum of digits=',sod)
+
+Output1:
+enter a number 
+
+0 
+
+sum of digits= 0
+
+Output2:
+enter number 
+
+567 
+
+sum of digits: 18
+
+Output3:
+enter a number 
+
+1 
+
+sum of digits= 1 
+
+
